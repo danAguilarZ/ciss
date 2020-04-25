@@ -9,7 +9,7 @@ do
 
   source /c/Users/danyg/PycharmProjects/ciss/venv/Scripts/activate
   echo "Guardando en base"
-  python -m ciss --config config.yml --reporte reporte_covid.txt --salida "$(dirname -- "$(readlink -f -- "$BASH_SOURCE")")/salida"
+  python -m ciss --config "$(dirname -- "$(readlink -f -- "$BASH_SOURCE")")/config.yml" --reporte "$(dirname -- "$(readlink -f -- "$BASH_SOURCE")")/reporte_covid.txt" --salida "$(dirname -- "$(readlink -f -- "$BASH_SOURCE")")/salida"
 
   deactivate
 
