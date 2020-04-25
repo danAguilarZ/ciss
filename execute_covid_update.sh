@@ -64,6 +64,9 @@ do
   rm "$(dirname -- "$(readlink -f -- "$BASH_SOURCE")")/salida_letalidad.txt"
   rm "$(dirname -- "$(readlink -f -- "$BASH_SOURCE")")/salida_total.txt"
 
+  current_date=$( date +%Y-%m-%d );
+  sed -i "s/última actualización: .*<\/h4>/última actualización: ${current_date}<\/h4>/g" test_ciss/index.html;
+
   echo "Se ha finalizado el proceso"
 
   sleep 10
