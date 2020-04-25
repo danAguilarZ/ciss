@@ -78,7 +78,7 @@ for line in covid_report.readlines():
         elif i == 3:
             key = "Total nuevas muertes"
             try:
-                covid_results[real_name]["Total letalidad"] = float("{:.3f}".format(
+                covid_results[real_name]["Total letalidad"] = float("{:.2f}".format(
                     covid_results[real_name]["Total muertes"] / covid_results[real_name]["Total casos confirmados"] *
                     100)
                 )
@@ -131,7 +131,7 @@ def print_sorted_cases(file_name, field, sort=True):
     else:
         line_to_write = ""
 
-        covid_results[field]["Total mortalidad"] = float("{:.3f}".format(
+        covid_results[field]["Total mortalidad"] = float("{:.2f}".format(
             float(covid_results[field]["Total muertes"])/7780079340.0
         *100000))
 
