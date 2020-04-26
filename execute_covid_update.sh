@@ -2,6 +2,7 @@
 
 virtual_envoronment="${1:-"$(dirname -- "$(readlink -f -- "$BASH_SOURCE")")/venv/Scripts/"}"
 html_location="${2:-"$(dirname -- "$(readlink -f -- "$BASH_SOURCE")")/test_ciss/index.html"}"
+sleep_time=${3:-10}
 
 while True
 do
@@ -73,6 +74,6 @@ do
 
   echo "Se ha finalizado el proceso"
 
-  sleep 10
+  sleep "${sleep_time}"
 
 done
