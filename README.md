@@ -11,7 +11,9 @@ pip install git+https://github.com/danAguilarZ/ciss.git@master
 
 ## Pasos a seguir
 
-* Configurar en una carpeta el shell y modificar la carpeta donde se creó el ambiente
- virtual y dónde leera el archivo HTML a actualizar
+* Configurar en una carpeta el shell
 * Crear y configurar el archivo config.yml con la configuración de bd
-* Ejecutar
+
+## Ejecutar
+
+sh execute_covid_update.sh <ruta de ambiente virtual> <ruta html a actualizar> <tiempo para volver a descargar archivo>
