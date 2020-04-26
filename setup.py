@@ -10,7 +10,7 @@ setup(
     package_dir={'': 'src'},
     py_modules=[splitext(basename(path))[0] for path in glob('src/*.py')],
     include_package_data=True,
-    python_requires='>=3.7',
+    python_requires='>=3.6',
     setup_requires=[],
     install_requires=[
         "mysql-connector>=2.2.9",
