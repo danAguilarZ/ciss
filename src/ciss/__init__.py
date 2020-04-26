@@ -1,4 +1,5 @@
 places = [
+    {"espanol": "IRAN (ISLAMIC REPUBLIC OF)", "ingles": "IRÁN"},
     {"espanol": "AFGHANISTAN", "ingles": "AFGANISTÁN"},
     {"espanol": "ALBANIA", "ingles": "ALBANIA"},
     {"espanol": "ALGERIA", "ingles": "ARGELIA"},
@@ -95,7 +96,6 @@ places = [
     {"espanol": "INDIA", "ingles": "INDIA"},
     {"espanol": "INDONESIA", "ingles": "INDONESIA"},
     {"espanol": "INTERNATIONAL CONVEYANCE (DIAMOND PRINCESS)", "ingles": "INTERNATIONAL CONVEYANCE (DIAMOND PRINCESS)"},
-    {"espanol": "IRAN (ISLAMIC REPUBLIC OF)", "ingles": "IRÁN"},
     {"espanol": "IRAQ", "ingles": "IRAQ"},
     {"espanol": "IRELAND", "ingles": "IRLANDA"},
     {"espanol": "ISLE OF MAN", "ingles": "ISLA DE MAN (RU)"},
