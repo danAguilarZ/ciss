@@ -14,7 +14,6 @@ setup(
     setup_requires=[],
     install_requires=[
         "mysql-connector>=2.2.9",
-        "mysqlclient>=1.4.6",
         "PyYAML>=5.3.1"
     ]
 )
