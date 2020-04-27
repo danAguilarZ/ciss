@@ -13,6 +13,14 @@ pip install git+https://github.com/danAguilarZ/ciss.git@master
 
 * Configurar en una carpeta el shell
 * Crear y configurar el archivo config.yml con la configuración de bd
+* Instalar pdftotext de la página oficial - https://www.xpdfreader.com/pdftotext-man.html
+
+### En caso de MAC
+
+Instalar readlink:
+
+* brew install coreutils
+* sudo ln -s /usr/local/bin/greadlink /usr/local/bin/readlink
 
 ## Ejecutar
 
