@@ -13,7 +13,7 @@ setup(
     python_requires='>=3.6',
     setup_requires=[],
     install_requires=[
-        "mysql-connector>=2.2.9"
+        "mysql-connector>=2.2.9",
         "PyYAML>=5.3.1"
     ]
 )
